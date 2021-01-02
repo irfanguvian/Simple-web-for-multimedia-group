@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg,#FFD6D0 70%,#FFE6E2 30%);
+    max-width: 100%;
+    
+}
+h1{
+    font-family: 'Domine','sans-serif';
+    font-weight: bold;
+    font-size: 4vw;
+}
+p{
+    font-family: 'Assistant','sans-serif';
+    font-size: 1.6vw ;
+}
+
+.logo-top{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+.logo-top img{
+    width: 5%;
+}
+.container{
+    max-width: 100%;
+    min-width: 50%;
+    margin-right: 100px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col-img{
+    max-width: 50%;
+    min-width: 50%;
+    align-self: center;
+}
+.col-img img{
+    width: 100%;
+    border-radius: 208.5px;
+}
+
+.col-text{
+    display: flex;
+    flex-direction:column;
+    max-width: 50%;
+    min-width: 30%;
+    margin-left: 50px;
+    justify-content: center;
+}
+.col-text h1{
+    color: #050006;
+}
+.col-text p{
+    color: #928D8D;
+}
+.btn{
+    margin-top: 5%;
+    width: 60%;
+    min-width: 60%;
+    height: 150%;
+    background: transparent;
+    background-color: #D4D7DE;
+    color: #FFFFFF;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: #cbcccf;
+}
+
+.container-2{
+    margin: 0px 100px 0px 100px ;
+    margin-top: 20%;
+    max-width: 100%;   
+}
+.society{
+    margin-left: 70px;
+}
+.swiper-container{
+    max-width: 70%;
+    min-width: 70%;
+    
+}
+.swiper-wrapper{
+ margin-left: 35px;
+ padding: 0;
+}
+.swiper-slide img{
+    max-width: 65%;
+    min-width: 50%;
+    cursor: pointer;
+}
+
+.container-3{
+    max-width: 100%;
+    min-width: 60%;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    justify-items: center;
+}
+.container-3 img{
+    max-width: 50%;
+    min-width: 40%;
+}
+.container-3 p{
+    margin-top: 2%;
+}
+
+.follow{
+    max-width: 100%;
+    margin-top: 100px;
+    height: 200%;
+    background: #7ed0e6;
+    display: flex;
+
+}
+.follow img{
+    max-width: 10%;
+}
+.sosial-media{
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left: 5%;
+    list-style: none;
+    font-size: 1.5vw;
+    font-family: 'Assistant','sans-serif'; 
+}
